@@ -1,0 +1,16 @@
+# Ambiente virtual
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Dados baixados
+data/raw/
+data/extracted/
+
+# Arquivos de saída
+output/
+
+# Configurações do editor
+.vscode/
