@@ -6,6 +6,34 @@ e decisões técnicas bem justificadas.
 
 ---
 
+## 📋 O Que o Teste Pede
+
+Este teste tem os seguintes objetivos:
+```
+1. Acessar o repositório público da ANS e identificar os trimestres mais recentes.
+2. Baixar, extrair e consolidar demonstrações contábeis.
+3. Identificação e extração de despesas relacionadas a eventos/sinistros.
+4. Validação e normalização dos dados.
+5. Entregar arquivos `.csv` consolidados prontos para análise.
+```
+Além disso, são avaliados:
+```
+- Clareza e organização do código;
+- Justificativas técnicas;
+- Boas práticas de programação;
+- Documentação explicativa.
+```
+
+## 🧾 Resultados Alcançados
+```
+ Requisito                                    Status      
+| Identificar trimestres mais recentes | ✅ Concluído |
+| Baixar e extrair ZIPs                | ✅ Concluído |
+| Consolidar despesas em CSV           | ✅ Concluído |
+| Normalizar e validar dados           | ✅ Concluído |
+| Geração de CSV final validado        | ✅ Concluído |
+```
+
 ## 📌 Visão Geral da Solução
 
 O projeto implementa um pipeline completo para:
@@ -149,3 +177,4 @@ Exposição via API
 
 Visualização em interface web
 ```
+
