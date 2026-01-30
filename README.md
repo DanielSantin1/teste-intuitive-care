@@ -6,6 +6,14 @@ e decisões técnicas bem justificadas.
 
 ---
 
+
+## 📌 Escopo do Teste
+```
+Esta solução cobre integralmente os Testes 1 e 2 propostos no PDF.
+Os testes adicionais (banco de dados e interface web) não foram implementados
+por decisão de escopo, priorizando qualidade, clareza e robustez do pipeline de dados.
+```
+
 ## 📋 O Que o Teste Pede
 
 Este teste tem os seguintes objetivos:
@@ -105,6 +113,23 @@ python src/processar_despesas.py
 python src/validar_despesas.py
 ```
 
+
+
+5️⃣ Exemplo de Saída (amostra do CSV)
+
+Uma tabela pequena com 3 ou 4 linhas do consolidado_despesas_validado.csv.
+Algo como:
+
+```
+### Amostra de Dados
+
+| REG_ANS | DESCRICAO                                | Ano | Trimestre | ValorNumerico |
+|---------|------------------------------------------|-----|-----------|---------------|
+| 316849  | Cobertura Assistencial com Preço Pós...  | 2025| 1         | 1181035.72    |
+| 316849  | Depósitos Judiciais - Eventos / Sinistros| 2025| 1         | 292907.23     |
+```
+
+
 🧠 Decisões Técnicas e Trade-offs
 
 🔹 Identificação dos Trimestres
@@ -178,3 +203,5 @@ Exposição via API
 Visualização em interface web
 ```
 
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
